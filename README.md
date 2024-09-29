@@ -1,7 +1,7 @@
 # NextJS Primer for the FS Team
 
 ## Name
-NextJS Primer
+Chapter 2 - Styling (CSS)
 
 ## Description
 This repository will follow along with the NextJS Dashboard app [tutorial](https://nextjs.org/learn/dashboard-app) from the NextJS documentation. Each chapter of the tutorial is broken out as it's own branch. Incrementally building upon itself as the tutorial progresses.
