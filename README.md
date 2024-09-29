@@ -1,11 +1,11 @@
 # NextJS Primer for the FS Team
 
 ## Name
-Chapter 2 - Styling (CSS)
+Chapter 3 - Optimizing Fonts and Images
 
-* How to add a global CSS file to your application.
-* Two different ways of styling: Tailwind and CSS Modules.
-* How to conditionally add classnames with `clsx` utility package.
+* How to add custom fonts with `next/font`
+* How to add images with `next/image`
+* How fonts and images are optimized in NextJS.
 
 ## Description
 This repository will follow along with the NextJS Dashboard app [tutorial](https://nextjs.org/learn/dashboard-app) from the NextJS documentation. Each chapter of the tutorial is broken out as it's own branch. Incrementally building upon itself as the tutorial progresses.
