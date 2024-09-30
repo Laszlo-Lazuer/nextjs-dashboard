@@ -8,7 +8,7 @@ Chapter 6 - Setting up your DB & Deploying on Vercel
 [Deployment Link](chapter-6-setting-up-your-db)
 ---
 
-* Pus your project to GitHUB
+* Push your project to Github
 * Setup a Vercel account and link your GitHub repo for instant previews and deployments.
 * Create and link your project to a Postgres database.
 * Seed the database with initial data.
