@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 6 - Setting up your DB & Deploying on Vercel
+Chapter 7 - Fetching Data
 
 ---
 
@@ -10,10 +10,10 @@ Chapter 6 - Setting up your DB & Deploying on Vercel
 
 ---
 
-* Push your project to Github
-* Setup a Vercel account and link your GitHub repo for instant previews and deployments.
-* Create and link your project to a Postgres database.
-* Seed the database with initial data.
+* Learn about some approaches to fetching data: APIs, ORMs, SQL, etc.
+* How Server Components can help you access back-end resources more securely.
+* What network waterfalls are.
+* How to implement parallel data fetching using a JavaScript Pattern.
 
 ## Description
 
