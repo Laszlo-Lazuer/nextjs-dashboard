@@ -6,7 +6,7 @@ Chapter 6 - Setting up your DB & Deploying on Vercel
 
 ---
 
-[Deployment Link](chapter-6-setting-up-your-db)
+[Deployment Link](https://nextjs-dashboard-two-rho-68.vercel.app/)
 
 ---
 
