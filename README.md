@@ -5,7 +5,9 @@
 Chapter 6 - Setting up your DB & Deploying on Vercel
 
 ---
+
 [Deployment Link](chapter-6-setting-up-your-db)
+
 ---
 
 * Push your project to Github
