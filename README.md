@@ -2,12 +2,21 @@
 
 ## Name
 
-Chapter 4 - Creating Layouts and Pages
+Chapter 5 - Navigating Between Pages
 
-* Create the `dashboard` routes using file-system routing.
-* Understand the role of folders and files when creating new route segments.
-* Create a nested layout that can be shared between multiple dashboard pages.
-* Understand what colocation, partial rendering, and the root layout are.
+* How to use the `next/link` component.
+* How to show an active link with the `usePathname()` hook.
+* How navigation works in Next.js
+
+### Why Optimize navigation?
+
+To link between pages, you'd traditionally use the `<a>` HTML element. At the moment, the sidebar links use `<a>` elements, but notice what happens when you navigate between the home, invoices, and customers pages on your browser.
+
+Did you see it?
+
+There's a full page refresh on each page navigation!
+
+[source](https://nextjs.org/learn/dashboard-app/navigating-between-pages)
 
 ## Description
 
