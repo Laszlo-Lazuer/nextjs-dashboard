@@ -2,21 +2,16 @@
 
 ## Name
 
-Chapter 5 - Navigating Between Pages
+Chapter 6 - Setting up your DB & Deploying on Vercel
 
-* How to use the `next/link` component.
-* How to show an active link with the `usePathname()` hook.
-* How navigation works in Next.js
+---
+[Deployment Link](chapter-6-setting-up-your-db)
+---
 
-### Why Optimize navigation?
-
-To link between pages, you'd traditionally use the `<a>` HTML element. At the moment, the sidebar links use `<a>` elements, but notice what happens when you navigate between the home, invoices, and customers pages on your browser.
-
-Did you see it?
-
-There's a full page refresh on each page navigation!
-
-[source](https://nextjs.org/learn/dashboard-app/navigating-between-pages)
+* Pus your project to GitHUB
+* Setup a Vercel account and link your GitHub repo for instant previews and deployments.
+* Create and link your project to a Postgres database.
+* Seed the database with initial data.
 
 ## Description
 
