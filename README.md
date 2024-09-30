@@ -2,21 +2,12 @@
 
 ## Name
 
-Chapter 3 - Optimizing Fonts and Images
+Chapter 4 - Creating Layouts and Pages
 
-* How to add custom fonts with `next/font`
-* How to add images with `next/image`
-* How fonts and images are optimized in NextJS.
-
-### Why Optimize Fonts?
-
-Unoptimized fonts can cause page performance issues such as:
-
-* Cumulative Layer Shift. You may have seen this in the form of font `flashing`. Where the fallback image loads while the primary large or external font file loads.
-
-#### How does NextJS mitigate this?
-
-* NextJS automatically optimizes fonts in the application when leveraging `next/font`. It will download font files at build time and hosts them as static assets. The result being a reduction of network requests for fonts thus improving performance.
+* Create the `dashboard` routes using file-system routing.
+* Understand the role of folders and files when creating new route segments.
+* Create a nested layout that can be shared between multiple dashboard pages.
+* Understand what colocation, partial rendering, and the root layout are.
 
 ## Description
 
