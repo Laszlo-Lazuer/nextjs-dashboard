@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 13 - Handling Errors
+Chapter 14 - Improving Accessibility
 
 ---
 
@@ -12,8 +12,15 @@ Chapter 13 - Handling Errors
 
 ## This chapter will cover
 
-* How to use the special `error.tsx` file to catch errors in your route segments, and show a fallback UI to the user.
-* How to use the `notFound` function and `not-found` file to handle 404 errors (for resources that don’t exist).
+* How to use `eslint-plugin-jsx-a11y` with Next.js to implement accessibility best practices.
+* How to implement server-side form validation.
+* How to use the React `useActionState` hook to handle form errors, and display them to the user.
+
+### What is Accessibility
+
+* Accessibility refers to designing and implementing web applications that everyone can use, including those with disabilities. It's a vast topic that covers many areas, such as keyboard navigation, semantic HTML, images, colors, videos, etc.
+
+* While we won't go in-depth into accessibility in this course, we'll discuss the accessibility features available in Next.js and some common practices to make your applications more accessible.
 
 ## Description
 
