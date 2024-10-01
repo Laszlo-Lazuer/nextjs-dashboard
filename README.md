@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 7 - Fetching Data
+Chapter 9 - Streaming
 
 ---
 
@@ -10,10 +10,19 @@ Chapter 7 - Fetching Data
 
 ---
 
-* Learn about some approaches to fetching data: APIs, ORMs, SQL, etc.
-* How Server Components can help you access back-end resources more securely.
-* What network waterfalls are.
-* How to implement parallel data fetching using a JavaScript Pattern.
+## This chapter will cover
+
+* What streaming is and when you might use it.
+* How to implement streaming with `loading.tsx` and Suspense.
+* What loading skeletons are.
+* What route groups are, and when you might use them.
+* Where to place Suspence boundaries in your application.
+
+### What is Streaming?
+
+* Streaming is a data transfer technique that allows you to break down a route into smaller "chunks" and progressively stream them from the server to the client as they become ready.
+* By streaming, you can prevent slow data requests from blocking your whole page. This allows the user to see and interact with parts of the page without waiting for all the data to load before any UI can be shown to the user.
+* Streaming works well with React's component model, as each component can be considered a chunk.
 
 ## Description
 
