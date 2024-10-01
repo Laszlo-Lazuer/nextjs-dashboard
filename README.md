@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 8 - Fetching Data
+Chapter 9 - Streaming
 
 ---
 
@@ -10,36 +10,19 @@ Chapter 8 - Fetching Data
 
 ---
 
-* What static rendering is and how it can improve your application's performance.
-* What dynamic rendering is and when to use it.
-* Different approaches to make your dashboard dynamic.
-* Simulate a slow data fetch to see what happens.
+## This chapter will cover
 
-### What is Static Rendering?
+* What streaming is and when you might use it.
+* How to implement streaming with `loading.tsx` and Suspense.
+* What loading skeletons are.
+* What route groups are, and when you might use them.
+* Where to place Suspence boundaries in your application.
 
-With static rendering, data fetching and rendering happens on the server at build time (when you deploy) or when [revalidating data](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating#revalidating-data).
+### What is Streaming?
 
-Whenever a user visits your application, the cached result is served. There are a couple of benefits of static rendering:
-
-Faster Websites - Prerendered content can be cached and globally distributed. This ensures that users around the world can access your website's content more quickly and reliably.
-Reduced Server Load - Because the content is cached, your server does not have to dynamically generate content for each user request.
-SEO - Prerendered content is easier for search engine crawlers to index, as the content is already available when the page loads. This can lead to improved search engine rankings.
-Static rendering is useful for UI with no data or data that is shared across users, such as a static blog post or a product page. It might not be a good fit for a dashboard that has personalized data which is regularly updated.
-
-The opposite of static rendering is dynamic rendering.
-
-### What is Dynamic Rendering?
-
-**What is Dynamic Rendering?**
-With dynamic rendering, content is rendered on the server for each user at request time (when the user visits the page). There are a couple of benefits of dynamic rendering:
-
-* **Real-Time Data** - Dynamic rendering allows your application to display real-time or frequently updated data. This is ideal for applications where data changes often.
-* **User-Specific Content** - It's easier to serve personalized content, such as dashboards or user profiles, and update the data based on user interaction.
-* **Request Time Information** - Dynamic rendering allows you to access information that can only be known at request time, such as cookies or the URL search parameters.
-
-#### Takeaway
-
-With dynamic rendering, your application is only as fast as your slowest data fetch.
+* Streaming is a data transfer technique that allows you to break down a route into smaller "chunks" and progressively stream them from the server to the client as they become ready.
+* By streaming, you can prevent slow data requests from blocking your whole page. This allows the user to see and interact with parts of the page without waiting for all the data to load before any UI can be shown to the user.
+* Streaming works well with React's component model, as each component can be considered a chunk.
 
 ## Description
 
