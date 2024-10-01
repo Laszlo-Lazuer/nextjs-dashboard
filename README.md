@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 10 - Adding Search and Pagination
+Chapter 12 - Mutating Data
 
 ---
 
@@ -12,8 +12,17 @@ Chapter 10 - Adding Search and Pagination
 
 ## This chapter will cover
 
-* Learn how to use the Next.js APIs: `useSearchParams`, `usePathname`, and `useRouter`.
-* Implement search and pagination using URL search params.
+* What React Server Actions are and how to use them to mutate data.
+* How to work with forms and Server Components.
+* Best practices for working with the native `formData` object, including type validation.
+* How to revalidate the client cache using the `revalidatePath` API.
+* How to create dynamic route segments with specific IDs.
+
+### What are Server Actions?
+
+React Server Actions allow you to run asynchronous code directly on the server. They eliminate the need to create API endpoints to mutate your data. Instead, you write asynchronous functions that execute on the server and can be invoked from your Client or Server Components.
+
+Security is a top priority for web applications, as they can be vulnerable to various threats. This is where Server Actions come in. They offer an effective security solution, protecting against different types of attacks, securing your data, and ensuring authorized access. Server Actions achieve this through techniques like POST requests, encrypted closures, strict input checks, error message hashing, and host restrictions, all working together to significantly enhance your app's safety.
 
 ## Description
 
