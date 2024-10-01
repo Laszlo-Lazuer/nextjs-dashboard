@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 12 - Mutating Data
+Chapter 13 - Handling Errors
 
 ---
 
@@ -12,21 +12,8 @@ Chapter 12 - Mutating Data
 
 ## This chapter will cover
 
-* What React Server Actions are and how to use them to mutate data.
-* How to work with forms and Server Components.
-* Best practices for working with the native `formData` object, including type validation.
-* How to revalidate the client cache using the `revalidatePath` API.
-* How to create dynamic route segments with specific IDs.
-
-### What are Server Actions?
-
-React Server Actions allow you to run asynchronous code directly on the server. They eliminate the need to create API endpoints to mutate your data. Instead, you write asynchronous functions that execute on the server and can be invoked from your Client or Server Components.
-
-Security is a top priority for web applications, as they can be vulnerable to various threats. This is where Server Actions come in. They offer an effective security solution, protecting against different types of attacks, securing your data, and ensuring authorized access. Server Actions achieve this through techniques like POST requests, encrypted closures, strict input checks, error message hashing, and host restrictions, all working together to significantly enhance your app's safety.
-
-### Next.js with Server Actions
-
-Server Actions are also deeply integrated with Next.js [caching](https://nextjs.org/docs/app/building-your-application/caching). When a form is submitted through a Server Action, not only can you use the action to mutate data, but you can also revalidate the associated cache using APIs like `revalidatePath` and revalidateTag.
+* How to use the special `error.tsx` file to catch errors in your route segments, and show a fallback UI to the user.
+* How to use the `notFound` function and `not-found` file to handle 404 errors (for resources that don’t exist).
 
 ## Description
 
