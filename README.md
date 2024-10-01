@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 10 - Adding Search and Pagination
+Chapter 11 - Adding Search and Pagination
 
 ---
 
