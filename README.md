@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 15 - Adding Authentication
+Chapter 16 (Final Chapter) - Adding metadata
 
 ---
 
@@ -12,24 +12,18 @@ Chapter 15 - Adding Authentication
 
 ## This chapter will cover
 
-* What is authentication.
-* How to add authentication to your app using NextAuth.js.
-* How to use Middleware to redirect users and protect your routes.
-* How to use React's `useActionState` to handle pending states and form errors.
+* What metadata is.
+* Types of metadata.
+* How to add an Open Graph image using metadata.
+* How to add a favicon using metadata.
 
-### What is authentication?
+### What is metadata?
 
-Authentication is a key part of many web applications today. It's how a system checks if the user is who they say they are.
+In web development, metadata provides additional details about a webpage. Metadata is not visible to the users visiting the page. Instead, it works behind the scenes, embedded within the page's HTML, usually within the `<head>` element. This hidden information is crucial for search engines and other systems that need to understand your webpage's content better.
 
-A secure website often uses multiple ways to check a user's identity. For instance, after entering your username and password, the site may send a verification code to your device or use an external app like Google Authenticator. This 2-factor authentication (2FA) helps increase security. Even if someone learns your password, they can't access your account without your unique token.
+### Why is metadata important?
 
-### Authentication vs. Authorization
-
-In web development, authentication and authorization serve different roles:
-
-* **Authentication** is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password.
-* **Authorization** is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use.
-So, authentication checks who you are, and authorization determines what you can do or access in the application.
+Metadata plays a significant role in enhancing a webpage's SEO, making it more accessible and understandable for search engines and social media platforms. Proper metadata helps search engines effectively index webpages, improving their ranking in search results. Additionally, metadata like Open Graph improves the appearance of shared links on social media, making the content more appealing and informative for users.
 
 ## Description
 
