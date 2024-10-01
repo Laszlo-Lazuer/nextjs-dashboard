@@ -37,6 +37,10 @@ With dynamic rendering, content is rendered on the server for each user at reque
 * **User-Specific Content** - It's easier to serve personalized content, such as dashboards or user profiles, and update the data based on user interaction.
 * **Request Time Information** - Dynamic rendering allows you to access information that can only be known at request time, such as cookies or the URL search parameters.
 
+#### Takeaway
+
+With dynamic rendering, your application is only as fast as your slowest data fetch.
+
 ## Description
 
 This repository will follow along with the NextJS Dashboard app [tutorial](https://nextjs.org/learn/dashboard-app) from the NextJS documentation. Each chapter of the tutorial is broken out as it's own branch. Incrementally building upon itself as the tutorial progresses.
