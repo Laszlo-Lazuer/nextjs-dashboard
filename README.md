@@ -2,7 +2,7 @@
 
 ## Name
 
-Chapter 9 - Streaming
+Chapter 10 - Adding Search and Pagination
 
 ---
 
@@ -12,21 +12,12 @@ Chapter 9 - Streaming
 
 ## This chapter will cover
 
-* What Partial Prerendering is.
-* How Partial Prerendering works.
+* Learn how to use the Next.js APIs: `useSearchParams`, `usePathname`, and `useRouter`.
+* Implement search and pagination using URL search params.
 
 ## Description
 
 This repository will follow along with the NextJS Dashboard app [tutorial](https://nextjs.org/learn/dashboard-app) from the NextJS documentation. Each chapter of the tutorial is broken out as it's own branch. Incrementally building upon itself as the tutorial progresses.
-
-### What is Partial Prerendering?
-
-Next.js 14 introduced an experimental version of Partial Prerendering – a new rendering model that allows you to combine the benefits of static and dynamic rendering in the same route. For example:
-
-#### When a user visits a route:
-* A static route shell that includes the navbar and product information is served, ensuring a fast initial load.
-* The shell leaves holes where dynamic content like the cart and recommended products will load in asynchronously.
-* The async holes are streamed in parallel, reducing the overall load time of the page.
 
 ## Installation
 
